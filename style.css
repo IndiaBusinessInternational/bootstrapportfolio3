@@ -1,0 +1,52 @@
+body{
+  font-family: 'Crimson Text', serif;
+}
+header{
+  height: 100vh;
+  background: url("img/drinking glass500x750.jfif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-center{
+  height: 100vh;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+body {
+    background: grey;
+    margin: 1px 0px;
+    padding: 0px;
+  }
+
+  a {
+    text-decoration: none;
+    text-underline: none;
+  }
+
+  @media screen and (min-width: 576px) {
+    body {
+      background: #442727;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    body {
+      background: #ffbcbc;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    body {
+      background: #263f44;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    body {
+      background: #550a46;
+    }
+  }
